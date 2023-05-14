@@ -1,0 +1,91 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    margin-left: 325px;
+    margin-right: 325px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px; 
+    font-weight: bolder;
+    color: blueviolet
+}
+
+li {
+    display: inline-block;
+    height: 25px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellowgreen;
+}
+
+li:hover {
+    background-color: orange;
+}
+
+header, footer {
+    width: 100%;
+    padding: 10px;
+}
+
+footer p {
+    background-color: yellowgreen;
+    color: blueviolet;
+    text-align: center;
+    width: 400px;
+    display: inline;
+    }
+
+table, form {
+    display: inline-block;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+    padding: 5px 20px 2px;
+}
+
+.clbr1 {
+    width:33%;
+}
+
+.tbr1 {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: orange;
+    color: blueviolet;
+}
+
+h2 {
+    background-color: blueviolet;
+    color:yellowgreen;
+}
+
+input[type="text"], input[type="email"], textarea, button {
+    display:block;
+    Height: 50px;
+    width: 500px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button:active {
+    background-color: orange;
+    font-size: large;
+    font-weight: bolder;
+    color: blueviolet;
+    box-shadow: inset 10px 10px 20px yellowgreen;
+    border-radius: 25px;
+
+}
+
+
